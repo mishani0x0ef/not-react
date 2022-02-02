@@ -1,0 +1,25 @@
+{
+  "name": "not-react",
+  "version": "0.1.0",
+  "description": "It's not React. No!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mishani0x0ef/not-react.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mishani0x0ef/not-react/issues"
+  },
+  "homepage": "https://github.com/mishani0x0ef/not-react#readme",
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1",
+    "esbuild": "^0.14.18",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.5"
+  }
+}
