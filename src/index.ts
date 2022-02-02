@@ -1,5 +1,5 @@
-export function test(a: number, b: number): number {
+export function add(a: number, b: number): number {
   return a + b;
 }
 
-test(2, 2);
+add(2, 2);
