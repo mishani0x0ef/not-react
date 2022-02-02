@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "esbuild ./src/index.ts --bundle --outfile=dist/index.js",
-    "test": "jest"
+    "start": "npm run build -- --watch",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "repository": {
     "type": "git",
