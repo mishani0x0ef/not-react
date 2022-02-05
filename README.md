@@ -1,3 +1,9 @@
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=mishani0x0ef_not-react&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=mishani0x0ef_not-react)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=mishani0x0ef_not-react&metric=coverage)](https://sonarcloud.io/summary/new_code?id=mishani0x0ef_not-react)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=mishani0x0ef_not-react&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=mishani0x0ef_not-react)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=mishani0x0ef_not-react&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=mishani0x0ef_not-react)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=mishani0x0ef_not-react&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=mishani0x0ef_not-react)
+
 # not-react
 
 It's definitely not React
