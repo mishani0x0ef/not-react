@@ -22,6 +22,10 @@
       "maxSize": "3 kB"
     }
   ],
+  "jestSonar": {
+    "reportPath": "test-reports",
+    "reportFile": "sonar-report.xml"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mishani0x0ef/not-react.git"
@@ -47,6 +51,7 @@
     "eslint-plugin-import": "^2.25.4",
     "husky": "^7.0.4",
     "jest": "^27.4.7",
+    "jest-sonar-reporter": "^2.0.0",
     "lint-staged": "^12.3.3",
     "prettier": "^2.5.1",
     "typescript": "^4.5.5"

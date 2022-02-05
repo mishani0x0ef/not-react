@@ -15,4 +15,6 @@ module.exports = {
   },
 
   testEnvironment: 'jsdom',
+
+  testResultsProcessor: 'jest-sonar-reporter',
 };
