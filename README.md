@@ -39,11 +39,18 @@ It's definitely not React
 
 - Using [jest](https://jestjs.io/)
 - Using TDD
-- Enforcing coverage (more than 90%)
+- Enforcing coverage (more than `90%`)
 
 ### Bundle Size
 
-TBD (<3Kb)
+**Why?**
+
+- Lib must be small and performant
+
+**How?**
+
+- Using [bundlesize](https://github.com/siddharthkp/bundlesize)
+- Must be less than `3kB`
 
 ### Static analysis
 
