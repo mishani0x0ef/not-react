@@ -1,0 +1,44 @@
+{
+  "name": "not-react",
+  "version": "0.1.0",
+  "description": "It's not React. No!",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky install",
+    "build": "esbuild ./src/index.ts --bundle --outfile=dist/index.js",
+    "start": "npm run build -- --watch",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "lint-staged": {
+    "*.ts": ["prettier --write", "eslint --fix"]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mishani0x0ef/not-react.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mishani0x0ef/not-react/issues"
+  },
+  "homepage": "https://github.com/mishani0x0ef/not-react#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.12",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-typescript": "^7.16.7",
+    "@tsconfig/recommended": "^1.0.1",
+    "@types/jest": "^27.4.0",
+    "@typescript-eslint/eslint-plugin": "^5.10.2",
+    "@typescript-eslint/parser": "^5.10.2",
+    "babel-jest": "^27.4.6",
+    "esbuild": "^0.14.18",
+    "eslint": "^8.8.0",
+    "eslint-plugin-import": "^2.25.4",
+    "husky": "^7.0.4",
+    "jest": "^27.4.7",
+    "lint-staged": "^12.3.3",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.5"
+  }
+}
