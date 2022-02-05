@@ -28,14 +28,33 @@ It's definitely not React
 
 - Using [eslint](https://eslint.org/)
 
-###
+### Testing
 
-To enforce consistent code
+**Why?**
 
-- Linting ([eslint](https://eslint.org/))
-- Styling (Prettier)
-- Tests (jest)
-  - Must pass
-  - Coverage
-- Pre-commit (husky) - enforce gates
-- Static analysis (SonarCloud)
+- To have constant proof that code working properly
+- To avoid refactoring mistakes
+
+**How?**
+
+- Using [jest](https://jestjs.io/)
+- Using TDD
+- Enforcing coverage (more than 90%)
+
+### Bundle Size
+
+TBD (<3Kb)
+
+### Static analysis
+
+TBD
+Static analysis (SonarCloud)
+
+### Pre-commit rules
+
+TBD
+Pre-commit (husky) - enforce gates
+
+### Merge rules
+
+TBD

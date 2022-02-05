@@ -7,11 +7,14 @@
     "prepare": "husky install",
     "build": "esbuild ./src/index.ts --bundle --outfile=dist/index.js",
     "start": "npm run build -- --watch",
-    "test": "jest",
+    "test": "jest --collect-coverage",
     "test:watch": "jest --watch"
   },
   "lint-staged": {
-    "*.ts": ["prettier --write", "eslint --fix"]
+    "*.ts": [
+      "prettier --write",
+      "eslint --fix"
+    ]
   },
   "repository": {
     "type": "git",
