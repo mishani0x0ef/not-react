@@ -60,14 +60,38 @@ It's definitely not React
 
 ### Static analysis
 
-TBD
-Static analysis (SonarCloud)
+**Why?**
+
+- To make sure that project has high maintainability, reliability and security metrics
+- To be able to establish quality gates
+- To have constant definition of code quality
+
+**How?**
+
+- Using [SonarCloud](https://sonarcloud.io/)
 
 ### Pre-commit rules
 
-TBD
-Pre-commit (husky) - enforce gates
+**Why?**
+
+- To avoid not-compliant code to be committed
+- To provide instant feedback for developers
+
+**How?**
+
+- Using [husky](https://www.npmjs.com/package/husky) and [lint-staged](https://www.npmjs.com/package/lint-staged)
+- Check linting and formatting
+- Check unit tests and coverage
 
 ### Merge rules
 
-TBD
+**Why?**
+
+- To avoid not-compliant to be merged into `main`
+
+**How?**
+
+- Using GitHub branch protection rules
+- Build must succeed
+- Tests must pass with appropriate coverage
+- Code must pass Sonar's quality gates
