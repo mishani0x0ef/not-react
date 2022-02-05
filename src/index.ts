@@ -2,4 +2,5 @@ export function add(a: number, b: number): number {
   return a + b;
 }
 
-add(2, 2);
+const testingValue = 2;
+add(testingValue, testingValue);

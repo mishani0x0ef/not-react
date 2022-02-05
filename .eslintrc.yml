@@ -4,22 +4,124 @@ env:
 extends:
   - eslint:recommended
   - plugin:@typescript-eslint/recommended
-parser: '@typescript-eslint/parser'
+parser: "@typescript-eslint/parser"
 parserOptions:
   ecmaVersion: latest
   sourceType: module
 plugins:
-  - '@typescript-eslint'
+  - "@typescript-eslint"
 rules:
+  camelcase:
+    - error
+  capitalized-comments:
+    - error
+  complexity:
+    - error
+    - max: 7
+  consistent-return:
+    - error
+  curly:
+    - error
+  default-case:
+    - error
+  default-case-last:
+    - error
+  default-param-last:
+    - error
+  dot-notation:
+    - error
+  eqeqeq:
+    - error
+  func-style:
+    - error
+    - declaration
+    - allowArrowFunctions: true
+  grouped-accessor-pairs:
+    - error
   indent:
     - error
     - 2
   linebreak-style:
     - error
     - windows
+  max-classes-per-file:
+    - error
+    - 1
+  max-depth:
+    - error
+    - 2
+  max-lines:
+    - error
+    - max: 150
+  max-params:
+    - error
+  multiline-comment-style:
+    - error
+    - separate-lines
+  new-cap:
+    - error
+  no-alert:
+    - error
+  no-duplicate-imports:
+    - error
+    - includeExports: true
+  no-else-return:
+    - error
+  no-empty-function:
+    - error
+  no-inline-comments:
+    - error
+  no-magic-numbers:
+    - error
+  no-nested-ternary:
+    - error
+  no-param-reassign:
+    - error
+  no-promise-executor-return:
+    - error
+  no-return-await:
+    - error
+  no-self-compare:
+    - error
+  no-shadow:
+    - error
+  no-unneeded-ternary:
+    - error
+  no-useless-catch:
+    - error
+  no-useless-rename:
+    - error
+  no-useless-return:
+    - error
+  no-var:
+    - error
+  no-warning-comments:
+    - warn
+  prefer-const:
+    - error
+  prefer-object-spread:
+    - error
+  prefer-rest-params:
+    - error
+  prefer-spread:
+    - error
+  prefer-template:
+    - error
+  require-await:
+    - error
   quotes:
     - error
     - single
   semi:
     - error
     - always
+  sort-imports:
+    - error
+  sort-keys:
+    - error
+  yoda:
+    - error
+
+  # Styling
+  eol-last:
+    - error
